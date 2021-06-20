@@ -1,12 +1,12 @@
 const projects = [
   {
-    title: "Banque",
+    title: "Maramoja",
     description:
-      "Banque is a savings app that helps all consumers save and transfer money seamlessly and securely without charges while at the comfort of their homes.",
-    technologies: ["React", "Redux", "NodeJs", "ExpressJs", "MongoDB", "SCSS"],
-    imgSrc: "/banque.jpeg",
+      "MARAMOJA is a location based taxi app that enables you and your friends to select your favorite drivers who will always be offered to you anytime they are nearby and you need to go.",
+    technologies: ["React", "NodeJS"],
+    imgSrc: "/maramoja.jpeg",
     direction: "ltr",
-    link: "https://banque-end.herokuapp.com/",
+    link: "https://maramoja.co.ke/",
   },
   {
     title: "Brand Focus feed Mill",
@@ -18,14 +18,15 @@ const projects = [
     link: "https://www.riversfeeds.com/",
   },
   {
-    title: "Maramoja",
+    title: "Banque",
     description:
-      "MARAMOJA is a location based taxi app that enables you and your friends to select your favorite drivers who will always be offered to you anytime they are nearby and you need to go.",
-    technologies: ["React"],
-    imgSrc: "/maramoja.jpeg",
+      "Banque is a savings app that helps all consumers save and transfer money seamlessly and securely without charges while at the comfort of their homes.",
+    technologies: ["React", "Redux", "NodeJs", "ExpressJs", "MongoDB", "SCSS"],
+    imgSrc: "/banque.jpeg",
     direction: "ltr",
-    link: "https://maramoja.co.ke/",
+    link: "https://banque-end.herokuapp.com/",
   },
+  
 ];
 
 export default projects;
