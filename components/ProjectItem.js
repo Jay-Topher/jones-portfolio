@@ -34,7 +34,7 @@ function ProjectItem({
           display: flex;
           align-items: center;
           font-size: 1.6rem;
-          margin-bottom: 3rem;
+          margin-bottom: 5rem;
         }
         .image {
           flex: 1;
@@ -46,18 +46,17 @@ function ProjectItem({
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-right: ${direction === "ltr" ? "1rem" : 0};
-          margin-left: ${direction === "ltr" ? 0 : "1rem"};
+          margin-right: ${direction === "ltr" ? "2rem" : 0};
+          margin-left: ${direction === "ltr" ? 0 : "2rem"};
           order: ${direction === "ltr" ? 1 : 2};
           text-decoration: none;
         }
         .text {
           flex: 1;
-          margin-left: 1rem;
           order: ${direction === "ltr" ? 2 : 1};
           text-align: ${direction === "ltr" ? "left" : "right"};
-          margin-left: ${direction === "ltr" ? "1rem" : 0};
-          margin-right: ${direction === "ltr" ? 0 : "1rem"};
+          margin-left: ${direction === "ltr" ? "2rem" : 0};
+          margin-right: ${direction === "ltr" ? 0 : "2rem"};
         }
 
         .tech {
