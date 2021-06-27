@@ -10,7 +10,7 @@ import colors from "../constants/colors";
 function Timeline() {
   return (
     <div className="tl-timeline">
-      <VerticalTimeline className="vert">
+      <VerticalTimeline animate={false}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
@@ -80,16 +80,6 @@ function Timeline() {
         />
       </VerticalTimeline>
 
-      <style global>{`
-        .tl-date {
-          color: ${colors.white};
-        }
-        .vertical-timeline-element--work {
-          background: colors.white,
-          color: colors.brown,
-          borderTop: 5px solid ${colors.primary},
-        }
-      `}</style>
       <style jsx>{`
         .tl-timeline {
           font-size: 1.6rem;
