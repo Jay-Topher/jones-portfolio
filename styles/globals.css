@@ -24,6 +24,12 @@ a {
   height: 100%;
 }
 
+.tl-date {
+  color: white;
+}
+.vertical-timeline-element--work {
+  color: #2c2c2c;
+}
 @media only screen and (max-width: 800px) {
   .container {
     width: 90%;
