@@ -8,7 +8,7 @@ function Projects() {
       <div className="container">
         <div className="projects-main">
           <h2 className="title">Projects</h2>
-          <div>
+          <div className="projects-container">
             {projects.map((project) => (
               <ProjectItem
                 src={project.imgSrc}
@@ -55,6 +55,12 @@ function Projects() {
           bottom: -10px;
           background-color: ${colors.primary};
           border-radius: 10px;
+        }
+
+        @media only screen and (max-width: 800px) {
+          .projects-container {
+            width: 95%;
+          }
         }
       `}</style>
     </section>
