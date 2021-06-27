@@ -81,6 +81,17 @@ function About() {
           flex: 1;
           font-size: 1.6rem;
         }
+
+        @media only screen and (max-width: 800px) {
+          .about {
+            height: auto;
+            padding: 3rem 0;
+          }
+
+          .about-img {
+            display: none;
+          }
+        }
       `}</style>
     </section>
   );
