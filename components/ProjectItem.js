@@ -20,7 +20,7 @@ function ProjectItem({
       <div className="text">
         <h3 className="title">{title}</h3>
         <p>{description}</p>
-        <div>
+        <div className="tech-cont">
           {technologies.map((tech) => (
             <span key={tech} className="tech">
               {tech}
@@ -67,6 +67,8 @@ function ProjectItem({
           font-family: "Roboto Mono", monospace;
           margin-right: ${direction === "ltr" ? "1rem" : 0};
           margin-left: ${direction === "ltr" ? 0 : "1rem"};
+          margin-top: -1rem;
+          margin-bottom: 2rem;
         }
 
         .title {
@@ -83,6 +85,38 @@ function ProjectItem({
           background-color: ${colors.primary};
           border-radius: 10px;
           right: ${direction === "rtl" ? 0 : null};
+        }
+
+        .tech-cont {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        @media only screen and (max-width: 540px) {
+          .item {
+            flex-direction: column;
+            width: 95%;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+          }
+
+          .image {
+            margin-left: 0;
+            order: 1;
+          }
+
+          .text {
+            margin-left: 0;
+            text-align: left;
+          }
+
+          .title::before {
+            left: 0;
+          }
+
+          .tech:nth-of-type(1) {
+            margin-left: 0;
+          }
         }
       `}</style>
     </div>
