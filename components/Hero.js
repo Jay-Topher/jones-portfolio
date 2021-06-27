@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero-main">
       <section className="container">
         <div className="flexed">
-          <div>
+          <div className="flexed-text">
             <p className="greeting">Hello</p>
             <h1>I&apos;m Jones</h1>
             <p className="desc">Frontend Engineer</p>
@@ -71,6 +71,28 @@ function Hero() {
         .image-container {
           align-self: flex-end;
           max-height: 918px;
+        }
+
+        @media only screen and (max-width: 540px) {
+          .hero-main {
+            background-image: linear-gradient(to bottom, #2c2c2c 70%, #ffb633 30%);
+            overflow: hidden;
+          }
+
+          .flexed {
+            flex-direction: column;
+            padding-top: 2rem;
+          }
+
+          h1 {
+            line-height: 10rem;
+            margin: 1rem 0;
+            font-size: 6rem;
+          }
+
+          .flexed-text {
+            align-self: flex-start;
+          }
         }
       `}</style>
       {/* <style jsx global>{`
