@@ -1,35 +1,54 @@
 import colors from "../constants/colors";
 import Button from "./Button";
+import Image from "next/image";
+import JonesSit from "../public/jones-sit.jpeg";
 
 function About() {
   return (
     <section className="about" id="about">
       <div className="container">
         <div className="about-main">
-          <div className="about-img"></div>
+          <div className="about-img">
+            <div className="img-container">
+              <Image
+                alt="jones"
+                src={JonesSit}
+                width={375}
+                height={500}
+                className="image"
+                placeholder="blur"
+                // layout="responsive"
+              />
+            </div>
+          </div>
           <div className="text-container">
             <h2 className="title">About Me</h2>
             <p className="about-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec
-              mi eros. Donec non eleifend sapien, ac fermentum justo. Quisque
-              purus neque, fermentum sed ex ut, luctus tincidunt metus. Proin
-              dictum blandit velit nec finibus. Vivamus dictum volutpat nulla,
-              ut dapibus quam ullamcorper a. Mauris sed ante ac nisi molestie
-              vulputate eget ut dolor. Proin semper pellentesque mi, et dictum
-              nisi lobortis ac. Nullam eleifend euismod lectus non blandit.
-              Suspendisse potenti. Donec congue est eros, eu lobortis nisi
-              volutpat nec. In hac habitasse platea dictumst. Nulla facilisi.
-              Morbi id porta dui. Proin lectus ligula, commodo sit amet ipsum
-              ut, efficitur efficitur purus. Donec iaculis, lorem vehicula
-              lobortis mattis, purus purus viverra mauris, eu egestas orci
-              lectus sed urna. Vivamus commodo sapien lectus, eget sollicitudin
-              odio porta sed.
+              I&apos;m a frontend engineer with a passion for making dynamic,
+              accessible and fully responsive user interfaces. In my career,
+              I&apos;ve worked with remote companies and collaborated with dev
+              teams to bring prototyped designs to life and achieve maximum user
+              satisfaction.
+              <span className="d-block">
+                Feel free to contact me if you&apos;d ever like to make some
+                magic. ✨
+              </span>
             </p>
             <div className="btn-container">
-              <Button to="/" variant="filled" className="hire-btn">
+              <Button
+                to="mailto:jones.ogolo@gmail.com"
+                variant="filled"
+                className="hire-btn"
+                isLink={true}
+              >
                 Hire Me
               </Button>
-              <Button to="/" variant="outlined">
+              <Button
+                to="https://drive.google.com/file/d/0B6OaKsMvtuBpTUpyTG9lSG1LdUt4dV91RUtGWjFEQzNPTkxr/view?usp=sharing&resourcekey=0-az9Utb534PJvNfp2qqJqKA"
+                variant="outlined"
+                isLink={true}
+                target="_blank"
+              >
                 Download CV
               </Button>
             </div>
@@ -91,6 +110,20 @@ function About() {
           .about-img {
             display: none;
           }
+        }
+
+        .img-container {
+          border: 4px solid ${colors.primary};
+          max-width: 30rem;
+          max-height: 30rem;
+          border-radius: 50%;
+          overflow: hidden;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+            rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+
+        .d-block {
+          display: block;
         }
       `}</style>
     </section>
