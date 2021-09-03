@@ -1,10 +1,16 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import colors from "../constants/colors";
 
-function Button({ to, variant, className, ...props }) {
+function Button({ to, variant, className, isLink = false, ...props }) {
+  const Wrapper = isLink ? Fragment : Link;
   return (
-    <Link href={to}>
-      <a className={`button ${variant} ${className}`}>
+    <Wrapper href={isLink ? null : to}>
+      <a
+        className={`button ${variant} ${className}`}
+        href={isLink ? to : null}
+        {...props}
+      >
         {props.children}
 
         <style jsx>{`
@@ -22,6 +28,7 @@ function Button({ to, variant, className, ...props }) {
             padding: 5px 20px;
             border-radius: 3px;
             text-transform: uppercase;
+            cursor: pointer;
           }
 
           .hire-btn {
@@ -29,7 +36,7 @@ function Button({ to, variant, className, ...props }) {
           }
         `}</style>
       </a>
-    </Link>
+    </Wrapper>
   );
 }
 
