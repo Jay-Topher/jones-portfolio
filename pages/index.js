@@ -1,11 +1,21 @@
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Head from "next/head";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import WorkHistory from "../components/WorkHistory";
 import Socials from "../components/Socials";
+import Footer from "../components/Footer";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div>
       <Head>
@@ -19,6 +29,7 @@ export default function Home() {
       <Projects />
       <WorkHistory />
       <Socials />
+      <Footer />
     </div>
   );
 }
