@@ -7,12 +7,16 @@ function Hero() {
     <section className="hero-main">
       <section className="container">
         <div className="flexed">
-          <div className="flexed-text">
+          <div className="flexed-text" data-aos="fade-right">
             <p className="greeting">Hello</p>
             <h1>I&apos;m Jones</h1>
             <p className="desc">Frontend Engineer</p>
             <div className="btn-container">
-              <Button to="/" variant="filled" className="hire-btn">
+              <Button
+                to="mailto:jones.ogolo@gmail.com"
+                variant="filled"
+                className="hire-btn"
+              >
                 Hire Me
               </Button>
               <Button to="#about" variant="outlined">
@@ -20,7 +24,7 @@ function Hero() {
               </Button>
             </div>
           </div>
-          <div className="image-container">
+          <div className="image-container" data-aos="fade-left">
             <Image
               alt="jones"
               src="/jones-fold.png"
@@ -75,7 +79,11 @@ function Hero() {
 
         @media only screen and (max-width: 540px) {
           .hero-main {
-            background-image: linear-gradient(to bottom, #2c2c2c 70%, #ffb633 30%);
+            background-image: linear-gradient(
+              to bottom,
+              #2c2c2c 70%,
+              #ffb633 30%
+            );
             overflow: hidden;
           }
 

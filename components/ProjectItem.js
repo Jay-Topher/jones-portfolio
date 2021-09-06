@@ -11,13 +11,13 @@ function ProjectItem({
   link,
 }) {
   return (
-    <div className="item">
+    <div className="item" data-aos="fade-up-right">
       {/* <div className="image"> */}
         <a href={link} target="_blank" rel="noreferrer" className="image">
-          <Image alt="project site" src={src} width={840} height={488} />
+          <Image alt="project website" src={src} width={840} height={488} />
         </a>
       {/* </div> */}
-      <div className="text">
+      <div className="text" data-aos="fade-up-left">
         <h3 className="title">{title}</h3>
         <p>{description}</p>
         <div className="tech-cont">
@@ -90,6 +90,7 @@ function ProjectItem({
         .tech-cont {
           display: flex;
           flex-wrap: wrap;
+          justify-content: ${direction === "rtl" ? 'flex-end' : 'flex-start'};
         }
 
         @media only screen and (max-width: 540px) {

@@ -8,7 +8,7 @@ function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-main">
-          <div className="about-img">
+          <div className="about-img" data-aos="fade-right">
             <div className="img-container">
               <Image
                 alt="jones"
@@ -21,7 +21,7 @@ function About() {
               />
             </div>
           </div>
-          <div className="text-container">
+          <div className="text-container" data-aos="fade-left">
             <h2 className="title">About Me</h2>
             <p className="about-text">
               I&apos;m a frontend engineer with a passion for making dynamic,
@@ -44,7 +44,7 @@ function About() {
                 Hire Me
               </Button>
               <Button
-                to="https://drive.google.com/file/d/0B6OaKsMvtuBpTUpyTG9lSG1LdUt4dV91RUtGWjFEQzNPTkxr/view?usp=sharing&resourcekey=0-az9Utb534PJvNfp2qqJqKA"
+                to="https://drive.google.com/file/d/1x7eUxkxgPyDxyZBqhDzT1xqm-9USoww_/view?usp=sharing"
                 variant="outlined"
                 isLink={true}
                 target="_blank"
