@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, Mail, Twitter } from "react-feather";
+import { GitHub, Linkedin, Mail, Twitter, FileText } from "react-feather";
 
 const socialLinks = [
   {
@@ -13,13 +13,18 @@ const socialLinks = [
   },
   {
     name: "Twitter",
-    link: "https://github.com/Jay-Topher",
+    link: "https://www.twitter.com/mr_jonce",
     icon: Twitter,
   },
   {
     name: "Email",
     link: "mailto:jones.ogolo@gmail.com",
     icon: Mail,
+  },
+  {
+    name: "CV",
+    link: "https://drive.google.com/file/d/1x7eUxkxgPyDxyZBqhDzT1xqm-9USoww_/view?usp=sharing",
+    icon: FileText,
   },
 ];
 
