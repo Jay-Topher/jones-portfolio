@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import WorkHistory from "../components/WorkHistory";
-import Socials from "../components/Socials";
+// import Socials from "../components/Socials";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
       <About />
       <Projects />
       <WorkHistory />
-      <Socials />
+      {/* <Socials /> */}
       <Footer />
     </div>
   );
