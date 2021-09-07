@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero-main">
       <section className="container">
         <div className="flexed">
-          <div className="flexed-text" data-aos="fade-left">
+          <div className="flexed-text">
             <p className="greeting">Hello</p>
             <h1>I&apos;m Jones</h1>
             <p className="desc">Frontend Engineer</p>
@@ -24,7 +24,7 @@ function Hero() {
               </Button>
             </div>
           </div>
-          <div className="image-container" data-aos="fade-right">
+          <div className="image-container">
             <Image
               alt="jones"
               src="/jones-fold.png"
