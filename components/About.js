@@ -8,7 +8,7 @@ function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-main">
-          <div className="about-img" data-aos="fade-right">
+          <div className="about-img" data-aos="flip-down">
             <div className="img-container">
               <Image
                 alt="jones"
@@ -21,7 +21,7 @@ function About() {
               />
             </div>
           </div>
-          <div className="text-container" data-aos="fade-left">
+          <div className="text-container" data-aos="flip-up">
             <h2 className="title">About Me</h2>
             <p className="about-text">
               I&apos;m a frontend engineer with a passion for making dynamic,
