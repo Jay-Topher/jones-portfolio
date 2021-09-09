@@ -49,11 +49,11 @@ function Socials() {
           transform: scale(1.3);
         }
 
-        @media only screen and (max-width: 800px) {
+        /* @media only screen and (max-width: 800px) {
           .socials {
             display: none;
           }
-        }
+        } */
       `}</style>
     </aside>
   );
