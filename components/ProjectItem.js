@@ -11,13 +11,13 @@ function ProjectItem({
   link,
 }) {
   return (
-    <div className="item" data-aos="fade-up-right">
+    <div className="item" data-aos="fade-up">
       {/* <div className="image"> */}
         <a href={link} target="_blank" rel="noreferrer" className="image">
           <Image alt="project website" src={src} width={840} height={488} />
         </a>
       {/* </div> */}
-      <div className="text" data-aos="fade-up-left">
+      <div className="text" data-aos="fade-down">
         <h3 className="title">{title}</h3>
         <p>{description}</p>
         <div className="tech-cont">
