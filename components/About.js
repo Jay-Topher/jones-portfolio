@@ -44,7 +44,7 @@ function About() {
                 Hire Me
               </Button>
               <Button
-                to="https://drive.google.com/file/d/1x7eUxkxgPyDxyZBqhDzT1xqm-9USoww_/view?usp=sharing"
+                to="https://drive.google.com/file/d/1-cuDVLjtNDovQDHPdtmawMoG0N_a23ty/view?usp=sharing"
                 variant="outlined"
                 isLink={true}
                 target="_blank"
