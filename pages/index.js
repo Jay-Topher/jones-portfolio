@@ -37,6 +37,10 @@ export default function Home() {
           content="https://res.cloudinary.com/winter-cake/image/upload/c_fill,h_630,w_1200/v1631170362/jones/IMG_3516_dsw87g.jpg"
           key="ogimage"
         />
+        <meta
+          name="robots"
+          content="follow, index, max-snippet:-1, max-video:-1, max-image-preview:large"
+        />
         <link rel="icon" href="/favicon.ico" />
         <title>Jones Ogolo</title>
       </Head>
