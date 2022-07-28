@@ -23,7 +23,7 @@ const socialLinks = [
   },
   {
     name: "CV",
-    link: "https://drive.google.com/file/d/1-cuDVLjtNDovQDHPdtmawMoG0N_a23ty/view?usp=sharing",
+    link: "https://drive.google.com/file/d/13otDL6crlM-QtnVljp8wBWfU7mnY3sso/view?usp=sharing",
     icon: FileText,
   },
 ];
