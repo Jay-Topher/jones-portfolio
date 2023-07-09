@@ -19,8 +19,28 @@ function Timeline() {
             borderTop: `5px solid ${colors.primary}`,
           }}
           contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-          date="2020 - present"
+          date="2023 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
+          dateClassName="tl-date"
+        >
+          <h3 className="vertical-timeline-element-title">
+            Canonical Ltd.
+          </h3>
+          <h6 className="vertical-timeline-element-subtitle">United Kingdom</h6>
+          <p>Front end Engineer</p>
+          <p>React | Redux | Typescript | etc.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: colors.white,
+            color: colors.brown,
+            borderTop: `5px solid ${colors.primary}`,
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+          date="2020 - 2022"
+          iconStyle={{ background: "rgb(100, 100, 100)", color: "#fff" }}
           icon={<MdWork />}
           dateClassName="tl-date"
         >
@@ -38,8 +58,8 @@ function Timeline() {
             color: colors.brown,
             borderTop: `5px solid ${colors.primary}`,
           }}
-          date="2019 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          date="2019 - 2022"
+          iconStyle={{ background: "rgb(100, 100, 100)", color: "#fff" }}
           icon={<MdWork />}
           dateClassName="tl-date"
         >

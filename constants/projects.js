@@ -1,11 +1,20 @@
 const projects = [
   {
+    title: "Instaclean",
+    description:
+      "Instaclean is a marketplace for on-demand cleaning services.",
+    technologies: ["React(NextJs)", "Typescript", "React-Query"],
+    imgSrc: "/instaclean.webp",
+    direction: "ltr",
+    link: "https://www.instaclean.io/",
+  },
+  {
     title: "Blurbkit",
     description:
       "At Blurbkit we believe that words and a voice is all we need to tap into the wealth of Africa’s uniqueness, so the world can enjoy more and appreciate even better Africa’s greatness.",
     technologies: ["React(NextJs)"],
     imgSrc: "/blurbkit.webp",
-    direction: "ltr",
+    direction: "rtl",
     link: "https://blurbkit.com/",
   },
   {
@@ -14,7 +23,7 @@ const projects = [
       "MARAMOJA is a location based taxi app that enables you and your friends to select your favorite drivers who will always be offered to you anytime they are nearby and you need to go.",
     technologies: ["React", "NodeJS"],
     imgSrc: "/maramoja.jpeg",
-    direction: "rtl",
+    direction: "ltr",
     link: "https://maramoja.co.ke/",
   },
   {
@@ -23,7 +32,7 @@ const projects = [
       "Brand Focus feed Mill a Nigerian-Based feed mill factory that deals in production and distribution of quality poultry feeds with clientele spanning across states.",
     technologies: ["React(NextJs)", "SCSS"],
     imgSrc: "/brand-focus.jpeg",
-    direction: "ltr",
+    direction: "rtl",
     link: "https://www.riversfeeds.com/",
   },
   {
@@ -32,7 +41,7 @@ const projects = [
       "Banque is a savings app that helps all consumers save and transfer money seamlessly and securely without charges while at the comfort of their homes.",
     technologies: ["React", "Redux", "NodeJs", "ExpressJs", "MongoDB", "SCSS"],
     imgSrc: "/banque.jpeg",
-    direction: "rtl",
+    direction: "ltr",
     link: "https://banque-end.herokuapp.com/",
   },
 ];

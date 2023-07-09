@@ -11,11 +11,11 @@ const socialLinks = [
     link: "https://github.com/Jay-Topher",
     icon: GitHub,
   },
-  {
-    name: "Twitter",
-    link: "https://www.twitter.com/mr_jonce",
-    icon: Twitter,
-  },
+  // {
+  //   name: "Twitter",
+  //   link: "https://www.twitter.com/mr_jonce",
+  //   icon: Twitter,
+  // },
   {
     name: "Email",
     link: "mailto:jones.ogolo@gmail.com",
