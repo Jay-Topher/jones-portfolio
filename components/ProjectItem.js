@@ -1,6 +1,5 @@
 import Image from "next/image";
 import colors from "../constants/colors";
-import Link from "next/link";
 
 function ProjectItem({
   src,
@@ -13,9 +12,9 @@ function ProjectItem({
   return (
     <div className="item" data-aos="fade-up">
       {/* <div className="image"> */}
-        <a href={link} target="_blank" rel="noreferrer" className="image">
-          <Image alt="project website" src={src} width={840} height={488} />
-        </a>
+      <a href={link} target="_blank" rel="noreferrer" className="image">
+        <Image alt="project website" src={src} fill className="project-img" />
+      </a>
       {/* </div> */}
       <div className="text" data-aos="fade-down">
         <h3 className="title">{title}</h3>
@@ -50,6 +49,11 @@ function ProjectItem({
           margin-left: ${direction === "ltr" ? 0 : "2rem"};
           order: ${direction === "ltr" ? 1 : 2};
           text-decoration: none;
+          max-width: 580px;
+          height: 33.7rem;
+          max-height: 337px;
+          position: relative;
+          min-height: 18rem;
         }
         .text {
           flex: 1;
@@ -90,7 +94,7 @@ function ProjectItem({
         .tech-cont {
           display: flex;
           flex-wrap: wrap;
-          justify-content: ${direction === "rtl" ? 'flex-end' : 'flex-start'};
+          justify-content: ${direction === "rtl" ? "flex-end" : "flex-start"};
         }
 
         @media only screen and (max-width: 540px) {
@@ -104,6 +108,7 @@ function ProjectItem({
           .image {
             margin-left: 0;
             order: 1;
+            width: 100%;
           }
 
           .text {

@@ -8,6 +8,7 @@ function Projects() {
       <div className="container">
         <div className="projects-main">
           <h2 className="title">Sample Projects</h2>
+          <p className="desc">I've been privileged to work on numerous impactful projects, here are a few awesome ones:</p>
           <div className="projects-container">
             {projects.map((project) => (
               <ProjectItem
@@ -29,6 +30,14 @@ function Projects() {
           min-height: 100vh;
           background-color: ${colors.brown};
           color: ${colors.white};
+        }
+
+        .desc {
+          font-size: 2rem;
+          margin-bottom: 5rem;
+          text-align: left;
+          align-self: flex-start;
+          margin-top: 0;
         }
 
         .projects-main {

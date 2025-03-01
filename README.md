@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jones Ogolo Portfolio
 
-## Getting Started
+Welcome to my portfolio website repository! I'm **Jones Ogolo**, a Frontend Engineer with over 6 years of experience building responsive, accessible, and high-performance web applications using **React**, **TypeScript**, and modern frontend technologies.
 
-First, run the development server:
+## About Me
+I'm passionate about creating seamless user experiences and building scalable web applications. My expertise lies in **React/Next.js**, **TypeScript**, and **Component Libraries** like **MUI** and **Styled-Components**. I enjoy collaborating with cross-functional teams to translate business requirements into elegant, functional solutions.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Highlights:
+- Proficient in **React, TypeScript, Next.js, and Redux**
+- Experience with **i18n** for multilingual applications
+- Skilled in **API integration** and state management using **React Query** and **Context API**
+- Strong advocate for **clean code** and **component reusability**
+- Experience writing tests with **Jest, React Testing Library, and Cypress**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- **Languages:** JavaScript, TypeScript
+- **Frameworks/Libraries:** React, Next.js, Redux, Zustand
+- **Styling:** MUI, Styled-components, Tailwind CSS
+- **Testing:** Jest, React Testing Library, Cypress
+- **Tools:** Git, Docker, Figma, Vercel, AWS
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Projects
+Here are a few projects I've worked on:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Limitflex Web Applications**: Built multi-tenant eSIM platforms with multilingual support using React, Next.js, and MUI.
+- **Instaclean Admin Dashboard**: Developed admin panels for cleaning service platforms with job management features.
+- **Codaflix App**: Created a video streaming platform with subscription features.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Get in Touch
+I'm always open to discussing new opportunities and collaborations. Feel free to reach out!
 
-## Learn More
+- Portfolio: [jonesogolo.com](https://www.jonesogolo.com/)
+- GitHub: [Jay-Topher](https://github.com/Jay-Topher)
+- LinkedIn: [Jones Christopher](https://www.linkedin.com/in/jones-christopher/)
+- Email: jones.ogolo@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
+Looking forward to building amazing products together!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
