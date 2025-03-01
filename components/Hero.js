@@ -27,7 +27,7 @@ function Hero() {
           <div className="image-container">
             <Image
               alt="jones"
-              src="/jones-fold.png"
+              src="/jones-hero.webp"
               width={612}
               height={918}
               className="image"
@@ -100,6 +100,10 @@ function Hero() {
 
           .flexed-text {
             align-self: flex-start;
+          }
+
+          .image-container {
+            align-self: auto;
           }
         }
       `}</style>

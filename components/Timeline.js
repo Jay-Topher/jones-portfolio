@@ -3,8 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { MdWork } from "react-icons/md";
-import { MdStar } from "react-icons/md";
+import { MdWork, MdStar } from "react-icons/md";
 import colors from "../constants/colors";
 
 function Timeline() {
