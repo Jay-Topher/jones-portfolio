@@ -4,7 +4,7 @@ import projects from "../constants/projects";
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <div className="container">
         <div className="projects-main">
           <h2 className="title">Sample Projects</h2>

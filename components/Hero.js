@@ -15,7 +15,6 @@ function Hero() {
               <Button
                 to="mailto:jones.ogolo@gmail.com"
                 variant="filled"
-                className="hire-btn"
               >
                 Hire Me
               </Button>
@@ -40,6 +39,8 @@ function Hero() {
       <style jsx>{`
         .hero-main {
           height: 100vh;
+          padding-top: 6rem;
+          overflow: hidden;
           background-color: #2c2c2c;
           background-image: linear-gradient(to right, #2c2c2c 70%, #ffb633 30%);
           color: #fff;
@@ -70,6 +71,12 @@ function Hero() {
         .desc {
           margin-top: -15px;
           font-size: 2.5rem;
+        }
+
+        .btn-container {
+          display: flex;
+          gap: 1rem;
+          flex-wrap: wrap;
         }
 
         .image-container {

@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, Mail, Twitter, FileText } from "react-feather";
+import { GitHub, Linkedin, Mail, FileText } from "react-feather";
 
 const socialLinks = [
   {

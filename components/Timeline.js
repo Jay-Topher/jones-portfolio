@@ -18,8 +18,26 @@ function Timeline() {
             borderTop: `5px solid ${colors.primary}`,
           }}
           contentArrowStyle={{ borderRight: "7px solid  #fff" }}
-          date="2023 - present"
+          date="2025 – Present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWork />}
+          dateClassName="tl-date"
+        >
+          <h3 className="vertical-timeline-element-title">Infillion</h3>
+          <h6 className="vertical-timeline-element-subtitle">New York, NY</h6>
+          <p>Software Engineer — Frontend</p>
+          <p>React | Semantic-UI | PrimeReact | Playwright | Python</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: colors.white,
+            color: colors.brown,
+            borderTop: `5px solid ${colors.primary}`,
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+          date="2023 - 2024"
+          iconStyle={{ background: "rgb(100, 100, 100)", color: "#fff" }}
           icon={<MdWork />}
           dateClassName="tl-date"
         >
@@ -28,7 +46,7 @@ function Timeline() {
           </h3>
           <h6 className="vertical-timeline-element-subtitle">United Kingdom</h6>
           <p>Front end Engineer</p>
-          <p>React | Redux | Typescript | etc.</p>
+          <p>React | Redux | Typescript</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -57,6 +75,7 @@ function Timeline() {
             color: colors.brown,
             borderTop: `5px solid ${colors.primary}`,
           }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
           date="2019 - 2022"
           iconStyle={{ background: "rgb(100, 100, 100)", color: "#fff" }}
           icon={<MdWork />}
@@ -79,6 +98,7 @@ function Timeline() {
             color: colors.brown,
             borderTop: `5px solid ${colors.primary}`,
           }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
           iconStyle={{ background: "rgb(100, 100, 100)", color: "#fff" }}
           icon={<MdWork />}
           dateClassName="tl-date"

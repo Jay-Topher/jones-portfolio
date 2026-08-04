@@ -4,7 +4,7 @@ import Timeline from "./Timeline";
 
 function WorkHistory() {
   return (
-    <section className="work-history">
+    <section className="work-history" id="work-history">
       <div className="container">
         <div className="work-main">
           <Title color={colors.white} lineThickness={10}>

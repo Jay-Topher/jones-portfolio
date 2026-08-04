@@ -38,13 +38,12 @@ function About() {
               <Button
                 to="mailto:jones.ogolo@gmail.com"
                 variant="filled"
-                className="hire-btn"
                 isLink={true}
               >
                 Hire Me
               </Button>
               <Button
-                to="https://drive.google.com/file/d/1-cuDVLjtNDovQDHPdtmawMoG0N_a23ty/view?usp=sharing"
+                to="https://drive.google.com/file/d/13otDL6crlM-QtnVljp8wBWfU7mnY3sso/view?usp=sharing"
                 variant="outlined"
                 isLink={true}
                 target="_blank"
@@ -90,6 +89,8 @@ function About() {
 
         .btn-container {
           margin-top: 2rem;
+          display: flex;
+          gap: 1rem;
         }
 
         .about-img {

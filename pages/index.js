@@ -3,7 +3,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
 import About from "../components/About";
+import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import WorkHistory from "../components/WorkHistory";
 import Socials from "../components/Socials";
@@ -45,8 +47,10 @@ export default function Home() {
         <title>Jones Ogolo</title>
       </Head>
 
+      <Navbar />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <WorkHistory />
       <Socials />
